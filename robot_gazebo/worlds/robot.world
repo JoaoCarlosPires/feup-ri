@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://"$(find ri_proj1)/model/model.sdf"</uri>
+    </include>
+  </world>
+</sdf>
