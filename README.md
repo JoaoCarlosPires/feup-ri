@@ -55,7 +55,7 @@ source ~/catkin_ws/devel/setup.bash
 roscore &
 ```
 
-2. Then, run:
+2. Then, in a new terminal, run:
 
 ```
 roslaunch robot_gazebo robot.launch
@@ -64,11 +64,11 @@ roslaunch robot_gazebo robot.launch
 3. Inside a new terminal, go to the folder ```catkin_ws/src/robot_gazebo``` and run the following 2 commands to run the robot: 
 
 ```
-chmod +x src/move.py
+chmod +x scripts/move.py
 ```
 
 ```
-python src/move.py
+python scripts/move.py
 ```
 
 
