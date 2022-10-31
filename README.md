@@ -19,6 +19,7 @@
     - worlds
         - robot.world (World Definition file)
     - CMakeLists.txt and package.xml (Compiling and configuration files)
+- turtlebot3_description (Package with the robot definition and some dependencies) 
 
 ## Requirements
 

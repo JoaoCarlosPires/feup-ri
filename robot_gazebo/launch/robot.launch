@@ -2,4 +2,13 @@
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find robot_gazebo)/worlds/robot.world"/>
   </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find turtlebot3_description)/urdf/turtlebot3_waffle.urdf.xacro'" />
+
+    <arg name="x" default="0"/>
+    <arg name="y" default="-2"/>
+    <arg name="z" default="0.5"/>
+
+    <node name="my_robot" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-urdf -param robot_description -model m2wr -x $(arg x) -y $(arg y) -z $(arg z)" />
 </launch>
