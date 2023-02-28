@@ -1,0 +1,60 @@
+tiles:
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+- [floor, straight/N, straight/N, floor ]
+# floor = 0.5
+# straight = 0.5
+
+objects:
+
+- kind: duckie
+  pos: [2.7, -1]
+  rotate: 10
+  height: 0.06
+
+- kind: duckie
+  pos: [2.3, -5]
+  rotate: 5
+  height: 0.06
+
+- kind: duckie
+  pos: [1.5, -7]
+  rotate: 10
+  height: 0.06
+
+- kind: duckie
+  pos: [2.4, -10]
+  rotate: 3
+  height: 0.06
+
+- kind: duckie
+  pos: [2.5, -15]
+  rotate: 10
+  height: 0.06
+
+- kind: duckie
+  pos: [2.5, -20]
+  rotate: 10
+  height: 0.06
+
+- kind: duckie
+  pos: [2, -25]
+  rotate: 10
+  height: 0.06
+
+
+tile_size: 0.585

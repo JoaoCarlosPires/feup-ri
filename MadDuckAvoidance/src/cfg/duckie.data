@@ -1,0 +1,6 @@
+classes= 1
+train  = C:/Users/Lisa/UPorto/Robotics/Project/duckiestuff-master/traindata.txt
+valid  = C:/Users/Lisa/UPorto/Robotics/Project/duckiestuff-master/testdata.txt
+names = data/duckie.names
+backup = duckie_backup
+
